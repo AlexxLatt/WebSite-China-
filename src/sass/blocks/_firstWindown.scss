@@ -1,0 +1,130 @@
+.firstWindown{
+    padding-top: 20px;
+    height: 750px;
+    background: url('../img/фон.png') no-repeat 50%/cover;
+    &__head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-menu{
+            &__wrapper{
+                display: flex;
+                justify-content: space-between;
+                width: 750px;
+            }
+            &-item{
+                
+               a{
+                transition: all 1s;
+                color: white;
+                border-right: 1px dotted white;
+                padding-right: 23px;
+               }
+               a:hover{
+                color: #ec644b;
+               }
+              
+            }
+            &-item:nth-child(6){
+                a{
+                    border:none;
+                }
+            }
+        }
+        &-phone{
+            .descr{
+                color:white;
+                text-align: end;
+            }
+            .phone{
+                color:white;
+            }
+        }
+        &-phoneWrapper{
+            display: flex;
+            justify-content: space-between;
+            width: 365px;
+        }
+    
+    }
+
+    &__main{
+
+        &-wrapper{
+            display: flex;
+            justify-content: space-between;
+            width: 990px;
+            margin: 0 auto;
+        }
+
+
+        margin-top: 50px;
+        &-title{
+            color: #ec644b;
+            text-align: center;
+            font-weight: 650;
+            font-size: 72px;
+        }
+        &-subtitle{
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+        &-secondTitle{
+            color:white;
+            text-align: center;
+            font-size: 42px;
+            font-weight: 650;
+        }
+        &-divider{
+            width: 450px;
+            height: 1px;
+            background-color: white;
+            margin:0 auto;
+            margin-top: 45px;
+        }
+        &-dot{
+       
+            background-color: white;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            margin-top: 45px;
+            transform: translateY(-50%);
+         
+        }
+        &-logo{
+     
+            margin-top: 45px;
+            img{
+                display: block;
+                margin: 0 auto;
+                height: 48px;
+                width: 64px;
+                
+            }
+        }
+        &-descr{
+            color:white;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        &-btn{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 40px;
+            align-items:center;
+            
+        }
+        &-logoWrapper{
+            display: block;
+         
+        }
+    }
+   
+   
+
+}

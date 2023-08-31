@@ -1,0 +1,36 @@
+.advantages{
+    height: 600px;
+    background-color: #f3f3f3;
+
+    &__wrapperText{
+       
+        .title{
+            color: #ee5a43;
+            font-size: 16px;
+            font-weight: 650;
+        }
+        .descr{
+            font-size: 14px;
+        }
+    }
+    &__wrapperItem{
+       display: flex;
+       margin-top: 40px;
+    }
+
+    &__icon{
+        padding-right: 20px;
+    }
+
+    &__title{
+        font-size: 26px;
+        text-align: center;
+        padding-top: 60px;
+        text-transform: uppercase;
+        font-weight: 650;
+    }
+
+
+
+
+}

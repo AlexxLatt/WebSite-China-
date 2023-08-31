@@ -1,0 +1,45 @@
+.work{
+    height: 600px;
+    &__title{
+        font-size: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        font-weight: 650;
+    }
+    &__divider{
+        width: 150px;
+        background-color:#ec644b;
+        height: 1px;
+        margin: 0 auto;
+        
+    }
+    &__subtitle{
+        font-size: 21px;
+        text-align: center;
+        padding: 25px 0;
+    }
+    &__wrapper{
+        &-title{
+            font-size: 18px;
+            color:#ec644b;
+            font-weight: 650;
+            text-align: center;
+            margin-top: 20px;
+        }
+        &-subtitle{
+            font-size:14px;
+            text-align: center;
+            margin-top: 5px;
+        }
+        &-img{
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+            
+        }
+
+    }
+}
