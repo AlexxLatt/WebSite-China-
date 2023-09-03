@@ -6,7 +6,12 @@
     margin: 0;
     padding: 0;
 }
+ @import"base/slick";
  @import"base/buttons";
  @import "blocks/firstWindown";
  @import"blocks/advantages";
  @import"blocks/work";
+ @import"blocks/price";
+ @import"blocks/management";
+ @import"blocks/reviews";
+ @import"blocks/carousel";

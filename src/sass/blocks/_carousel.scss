@@ -1,0 +1,71 @@
+.carousel{
+    &__iner{
+      
+        &__img{
+         
+          display: block;
+          margin: 0 auto;
+
+        }
+        &__title{
+            margin: 0 auto;
+            width: 200px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__subtitle{
+            margin: 0 auto;
+            width: 330px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+    }
+}
+.slick-slide img {
+    display: block;
+    margin: 0 auto;
+  
+}
+.carousel__iner .slick-slide.highlighted {
+    transition: transform 0.3s ease;
+    transform: scale(1.3); /* Пример увеличения размера */
+    opacity: 1;
+}
+.slick-list{
+    height: 400px;
+  
+ 
+}
+.slick-slide{
+    transform: all 0.3s;
+    margin-top: 70px;
+    opacity: 0.3; /* Задаем начальную непрозрачность */
+}
+.carousel__iner .slick-slide {
+    
+    transition: all 0.5s;
+}
+.container__carousel{
+    width: 1300px;
+    margin: 0 auto;
+}
+.slick-prev{
+    position: absolute;
+    z-index: 1; /* Устанавливаем z-index */
+    border: none;
+    background: none;
+    top:25%;
+    left: 40%;
+    
+}
+.slick-next{
+    position: absolute;
+    border: none;
+    z-index: 1;
+    background:none;
+    top:25%;
+    left: 59%;
+}

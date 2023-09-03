@@ -13,3 +13,18 @@
     color:  #ec644b;
     background-color:white;
 }
+.button-second{
+    height: 45px;
+    width: 200px;
+    background-color: #ec644b;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.button-second:hover{
+
+    color:  #ec644b;
+    background-color:#f3f3f3;
+}

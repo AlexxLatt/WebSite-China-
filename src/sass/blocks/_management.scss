@@ -1,0 +1,66 @@
+.management{
+
+    .manager{
+
+        background: url("../img/bgPrice.png") no-repeat 50%/cover;
+        height: 340px;
+        &__icon{
+
+            padding-top: 30px;
+
+           img{
+            display: block;
+            margin: 0 auto;
+           }
+        }
+        &__title{
+            margin-top: 30px;
+            text-align: center;
+            font-size: 26px;
+            color: white;
+        }
+        &__descr{
+            margin-top: 30px;
+            text-align: center;
+            font-size: 19px;
+            color:white;
+        }
+    }
+
+
+
+    .scheme{
+        background-color: #f3f3f3;
+        height: 450px;
+        &__title{
+            text-transform: uppercase;
+            font-size: 26px;
+            text-align: center;
+            padding-top:30px ;
+            font-weight: 700;
+        }
+        &__item{
+            &__icon{
+                margin-top: 25px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                }
+               
+            }
+            &__title{
+                color:#ec644b;
+                font-size:16px;
+                text-align: center;
+                font-weight: 700;
+                margin-top: 5px;
+            }
+            &__descr{
+               text-align: center;
+                font-size: 14px;
+                margin-top: 5px;
+
+            }
+        }
+    }
+}
