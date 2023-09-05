@@ -262,20 +262,26 @@
 /* Стилизация сообщения об ошибке для элемента с id "name-error" */
 #name-error {
     color: red;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 70px;
+    padding: 0 5px;
+  
 }
 
 /* Стилизация сообщения об ошибке для элемента с id "phone-error" */
 #phone-error {
     color: blue;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 70px;
+    padding: 0 5px;
+
 }
 
 /* Стилизация сообщения об ошибке для элемента с id "email-error" */
 #email-error {
     color: green;
-    font-size: 14px;
+    font-size: 10px;
     margin-top: 70px;
+    padding: 0 5px;
+ 
 }

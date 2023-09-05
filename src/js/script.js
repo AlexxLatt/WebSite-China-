@@ -143,7 +143,47 @@ function validateForms(form) {
 }
 
 validateForms('#consultation-form');
+validateForms('#questions-form', '.error-message-questions');
 $('input[name=phone]').mask("+7 (999) 999-99-99");
 
-//слайдер
+$(document).ready(function() {
+    $('#questions-form').validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 2
+            },
+            phone: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            textarea: "required"
+        },
+        messages: {
+            name: {
+                required: "Пожалуйста, введите своё имя",
+                minlength: jQuery.validator.format("Введите {0} символа или более")
+            },
+            phone: "Пожалуйста, введите свой номер телефона",
+            email: {
+                required: "Пожалуйста, введите свой email",
+                email: "Неправильно введен email"
+            },
+            textarea: "Пожалуйста, введите ваше сообщение"
+        },
+        errorPlacement: function(error, element) {
+            if (element.hasClass("input")) {
+                error.insertAfter(element);
+            } else if (element.hasClass("text")) {
+                error.insertAfter(element);
+            } else {
+                error.appendTo(".error-message-questions");
+            }
+        }
+    });
+
+    $('input[name=phone]').mask("+7 (999) 999-99-99");
+});
+
 
